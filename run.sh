@@ -28,6 +28,9 @@ case "$1" in
     inside_reporter)
     docker run --rm -v $(pwd)/data:/data reporter ls /data
     ;;
+    report_server)
+    docker run --rm -v $(pwd)/data:/usr/local/apache2/htdocs -p 5009:80 httpd
+    ;;
     *)
     echo "Неизвестная команда: $1"
     ;;
