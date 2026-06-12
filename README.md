@@ -12,8 +12,8 @@
 
 ## Как запустить проект в GitHub Codespaces 
 
-1. Склонируй репозиторий и открой его в GitHub Codespaces
-2. В терминале выполни команды:
+1. Склонируйте репозиторий и откройте его в GitHub Codespaces
+2. В терминале выполните следующие команды:
 
 ```bash
 chmod +x run.sh
@@ -24,7 +24,7 @@ chmod +x run.sh
 ./run.sh report_server
 ```
 
-3. Codespaces автоматически обнаружит порт 5009 — во вкладке **Ports** нажми **Open in Browser**
+3. Codespaces автоматически обнаружит порт 5009 — во вкладке **Ports** ,нажмите **Open in Browser**
 4. В открывшемся браузере перейди по адресу `.../report.html`
 
 ## Команды run.sh
